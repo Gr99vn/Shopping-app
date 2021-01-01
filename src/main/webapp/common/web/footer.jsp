@@ -10,7 +10,7 @@
 		<p>
 			<i class="fas fa-envelope"></i> wallet@shop.vn
 		</p>
-		<p>@2020</p>
+		<p>@2021</p>
 	</div>
 	<div class="copyright">
 		<p>GR99 All rights reserved</p>
