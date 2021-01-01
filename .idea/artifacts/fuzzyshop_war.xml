@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fuzzyshop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>fuzzyshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fuzzyshop-0.1.war">
+      <element id="artifact" artifact-name="fuzzyshop:war exploded" />
+    </root>
+  </artifact>
+</component>

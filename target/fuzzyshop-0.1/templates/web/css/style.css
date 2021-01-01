@@ -1,0 +1,290 @@
+/*Global*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: background;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center {
+    margin: 0 10% 0;
+}
+
+input {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+table, th, td {
+  padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.main-fit {
+    min-height: 350px;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+button {
+    padding: 5px 7px;
+    border: solid whitesmoke 1px;
+}
+
+button > * {
+    pointer-events: none;
+}
+
+.dspnone, .inactive {
+    display: none;
+}
+
+.alert {
+	color: red;
+	margin-bottom: 20px;
+}
+
+.success {
+	color: lightgreen;
+	margin-bottom: 20px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+/*header*/
+header {
+    background: #222831;
+    padding: 10px 10px 30px;
+    min-height: 115px;
+}
+
+.branch, .cart-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: #eeeeee;
+    font-size: 1.25rem; 
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: auto; 
+    /*margin-left: auto;*/
+    display: flex; 
+    justify-content: space-around;
+}
+
+.extend {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.search-bar {
+    
+}
+
+input.wallet-search {
+    width: 100%;
+}
+
+.shopping-cart {
+    font-size: 1em;
+    padding: 2px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/*footer*/
+footer {
+    min-height: 202px;
+    padding-top: 10px;
+    background: #222831;
+    color: #eeeeee;
+    position: relative;
+}
+
+.shop-info {
+    position: absolute;
+    left: 1rem;
+}
+.shop-info p {
+    margin-bottom: 17px;
+}
+.copyright {
+    position: absolute;
+    right: 0.4rem;
+    width: 202px;
+    text-align: center;
+    transform: rotate(90deg) translate(5rem, -5rem);
+}
+
+/*index.jsp main*/
+main {
+    background: #393e46;
+    color: #eeeeee;
+}
+
+.wallet-container {
+    /*margin: 0 20px;*/
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.wallet {
+    text-align: center;
+}
+
+.wallet-info {
+    padding: 20px 0;
+}
+
+.page-move {
+    position: relative;
+    height: 24px;
+}
+
+.page-navigate {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: 15%;
+}
+
+
+.pn-btn {
+    margin-right: 10px;
+}
+/*login.jsp main*/
+.main-fit.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form input[type=submit] {
+    margin-top: 15px;
+}
+
+.login-inp {
+    display: block;
+    margin: 10px 0;
+}
+
+/*register.jsp main*/
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*wallet.jsp*/
+.wallet-detail {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.wallet-detail .wallet-info {
+    padding: 20px;
+}
+
+.wallet-detail p, .quantity {
+    margin-bottom: 10px;
+}
+
+.wallet-detail h4 {
+    margin: 5px 0;
+}
+
+/*cart.jsp*/
+.cart-container {
+	display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 20px 20px 0px;
+}
+
+/* .cart { */
+/*     display: grid; */
+/*     grid-template-columns: 1fr; */
+/*     padding: 20px 20px 0px; */
+/* } */
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr 2fr 1fr;
+    grid-gap: 5px;
+}
+
+.cart-id {
+	height: 54px;
+}
+
+.pt-15 {
+	padding-top: 15px;
+}
+
+.pt-5 {
+	padding-top: 5px;
+}
+
+.product-item-img {
+	margin: 0 !important;
+	padding: 0 !important;
+}

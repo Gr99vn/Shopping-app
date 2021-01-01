@@ -1,0 +1,116 @@
+body {
+    position: relative;
+}
+
+hr {
+	margin: 5px;
+}
+
+button {
+	border: solid #222831 1px;
+	background: #222831;
+	color: #eeeeee;
+}
+
+img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+	background: red !important;
+}
+
+.inline-block {
+	display: inline-block;	
+}
+
+.text-center {
+	text-align: center;
+}
+/*header*/
+header {
+    background: #222831;
+    min-height: 70px;
+    display: flex; 
+	align-content: center;
+	position: fixed;
+	z-index: 1;
+	width: 85%;
+}
+
+/*footer*/
+footer {
+	position: fixed;
+	z-index: 1;
+    min-height: 70px;
+    padding-top: 10px;
+    background: #222831;
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 15%;
+}
+.menubar {
+	position: fixed;
+	z-index: 1;
+	padding: 10px;
+	background: #583d72;
+	width: 15%;
+	color: #eeeeee;
+	text-align: center;
+	float: left;
+	top: 70px;
+}
+/* product-modify */
+.main-content {
+	top: 70px;
+	position: absolute;
+	width: 70%;
+	left: 22%;
+	float: left;
+	color: #eeeeee;
+	padding: 10px;
+	background: #393e46;
+}
+
+/* order content */
+.order-item {
+	padding: 10px;
+	background: #eeeeee;
+	color: #000000;
+}
+
+.order-detail {
+	display: grid;
+	grid-template-columns: 10fr 2fr;
+}
+
+.product-list {
+	
+}
+
+.product-item {
+	display: grid;
+	grid-template-columns: 1fr 2fr 9fr;
+}
+
+.product-item > * {
+	align-self: center;
+}
+
+.order-action form {
+	display: flex;
+	flex-direction: column;
+}
+
+.client-info {
+	margin-bottom: 5px;
+	display: grid;
+	grid-template-columns: 3fr 6fr 3fr;
+}
+
+.product-item .detail {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
